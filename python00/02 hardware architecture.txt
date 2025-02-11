@@ -1,0 +1,33 @@
+hardware architeture
+
+raspberry pie
+
+generic computer
+input-> software-> output
+	cpu
+	main 
+	memory
+
+motherboard
+microprocessor
+memory-> computer off no memory
+hardware-> saves even computer is off
+
+capasitors
+resistors
+wires
+tranistors
+
+photographic now a days
+making small
+
+raspberry pie contains all
+but need to plug in and enjoy
+
+cpu-> thinking not smart but needs human for algorithms or process
+
+secondary memory-> transation-> main memory-> central processing unit-> main memory-> secondary memory
+
+
+
+

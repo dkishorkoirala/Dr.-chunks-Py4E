@@ -1,0 +1,22 @@
+python as a language
+
+python is like snake
+people in slytherin speaks with snakes
+
+is python
+Guido van Rossum founder of python
+
+language its fun and easy to learn and powerful 
+short programs
+
+syntax errors- error
+
+talking to python
+interactively working
+x=1
+print(x)
+
+x= x+1
+print(x)
+
+exit().

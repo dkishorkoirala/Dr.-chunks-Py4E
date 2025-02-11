@@ -1,0 +1,12 @@
+python.org for windows as administration
+
+check via cmd
+
+py --version
+
+editor 
+choose any
+we focusing brackets not compulsory
+
+create folder and create file 
+and do very first program
