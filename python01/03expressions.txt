@@ -1,0 +1,154 @@
+expressions are operators
+not all the operators are here so
++ is addition
+- is subtraction
+* is multiplication 
+/ is Division
+** is power
+% is remainder
+
+xx = 2
+xx = xx + 2
+print(xx)
+4
+
+and all the calculations are here 
+yy = 440 * 12
+print(yy)
+5280
+
+zz = yy / 1000
+print (zz)
+5.28
+
+jj = 23
+kk = jj % 5
+print(kk)
+3
+
+print(4 ** 3)
+64
+
+order of evauation
+operator precedence
+parenthesis
+exponentiation
+multiplication and division
+addition
+left to right
+
+x = 1 + 2 ** 3 / 4 * 5 (2**3) (8/4)  (2*5) (1 +10)
+print(x)
+11.0
+
+rules 
+parenthesis, power, multiplication, addition, left to right within it
+
+Type means types of data integer, float, string, boolean, list, dictionary, set, tuple, None
+
+ddd = 1+ 4
+print(ddd)
+5
+
+eee ='hello' + 'there'
+print(eee)
+hello there
+
+concatenate = put together 
+
+you cannot add 1 to a string
+eg 
+eee ='hello' + 'there'
+eee = eee + 1
+print(eee)
+
+but we can 
+type (eee)
+<class 'str'>
+
+type('hello')
+<class 'str'>
+
+type(1)
+<class 'int'>
+
+type (1.0)
+<class 'float'>
+
+print(float(99) + 100)
+199.0
+
+i = 42
+type(i)
+<class 'int'>
+
+f = float(i)
+print (f)
+42.0
+
+type(f)
+<class 'float'>
+
+print( 10/2)
+5.0
+
+print(9/2)
+4.5
+
+print(99 / 100)
+0.99
+
+print(10.0/2.0)
+5.0
+
+print (99.0/100.0)
+0.99
+
+string conversions
+sva1 = '123'
+type(sva1)
+<class 'str'>
+
+ival = int (sva1)
+type(ival)
+<class 'int'>
+
+print(ival  + 1)
+124
+
+nsv = 'hello bob'
+niv = int(nsv)
+error
+
+user input
+nam = input('who are you? ')
+print ('welcome', nam)
+
+who are you? boss
+welcome boss
+
+converting user input
+us app floor
+inp = input('europe floor?')
+usf= int(inp) + 1
+print('Us floor', usf)
+
+europe floor? 0
+Us floor 1
+
+comments in python
+# is ignored by python and are for programmers
+# this is a comment
+
+#add the numbers
+print (1 + 2)
+3
+
+summary
+type
+reserved wordsvariables
+operators
+operator precedence
+integer division
+conversion between typesuser input
+comments(#)

@@ -1,0 +1,117 @@
+#the LF
+
+multi way branch
+x = 0
+if x< 2:
+    print('small')
+elif x <10:
+    print('medium')
+else:
+    print('large')
+
+print('all done')
+
+one time output only
+small
+all done
+
+x = 5
+if x< 2:
+    print('small')
+elif x <10:
+    print('medium')
+else:
+    print('large')
+
+print('all done')
+
+one time output only
+medium
+all done
+
+x = 20
+if x< 2:
+    print('small')
+elif x <10:
+    print('medium')
+else:
+    print('large')
+
+print('all done')
+
+one time output only
+large
+all done
+
+checked in order 
+
+you can have no else 
+
+x = 5
+if x< 2:
+    print('small')
+elif x <10:
+    print('medium')
+
+print('all done')
+
+muli elif
+if x < 2:
+    print('small')
+elif x < 10:
+    print('medium')
+elif x < 20:
+    print('big')
+elif x < 40:
+    print('large')
+
+elif x < 100 : print('giant')
+
+else : 
+    print('ginormous')
+
+print('all done')
+
+focus the order too 
+and be quite best
+
+try/ except structure
+is as exception handling process
+
+eg.
+astr = 'hello bob'
+try:
+    istr = int(astr) #dangerous code or traceback
+except:
+    istr = -1
+
+print ('first', istr) 
+-1 as answer
+
+astr ='123'
+try:
+    isr = int(astr)
+except:
+    istr = -1
+print('second', istr)
+123
+
+first try and if its correct no check of except but as the code blows it goes for except block
+
+sample try/except
+rawstr = input('enter a number: ')
+try: 
+    ival = int(rawstr)
+except:
+    ival = -1
+
+if ival >0 : print ('Nice work')
+else: print ('not a number')
+
+summary
+comparision operators
+indentationone-way decisions
+two-way decisions
+nested decisions
+Multi-way decision using elif
+try/except to compensate for errors

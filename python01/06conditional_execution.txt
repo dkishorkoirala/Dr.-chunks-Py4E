@@ -1,0 +1,69 @@
+if statement and if is reserved word
+if (condition):
+    print('sjj')
+if (condition):
+    print('skhf')
+print('shf')
+
+comparision operations to ask the questions 
+< less than
+<= less than or equal to
+== is equal to
+>= greater than or equal to
+> greater than
+!= not equal to
+
+x = 5
+if x ==5:
+    print('Equal to 5')
+
+if x >4: 
+    print('Greater than 4')
+
+if x>=5:
+    print('Greater than or equals 5')
+
+if x<6 : print('less than 6 ')
+
+if x <= 5: 
+    print('Less than or equals 5')
+
+if x!= 6:
+    print('Not equals to 6')
+
+remember the indentation
+
+one - way direction till the condition is true it follows excapes if next condition is false
+
+
+nested block
+check the indentation too
+eg
+x = 5
+if x> 2
+    print('Bigger than 2')
+    print('still bigger')
+print('Done with 2')
+
+#loop
+for i in range (5):
+    print(i)
+    if i > 2:
+        print('Bigger than 2')
+    print('done with i', i)
+print('all done')
+
+always check the shape and structure using indentation
+
+two way decision
+if -then else
+as one or another its like either or
+eg
+x = 4
+if x>2 :
+    print('Bigger')
+else:
+    print('smaller')
+
+print('all done')
+

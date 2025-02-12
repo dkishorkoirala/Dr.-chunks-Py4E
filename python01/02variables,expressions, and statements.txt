@@ -1,0 +1,54 @@
+fixed values are numbers,letters, and strings are called constants
+
+reserved words are special words with special meaning
+
+variables are ones which allocate the values
+
+we assign the variables 
+
+e.g. x=12.2
+    y= 14
+
+x = 12.2
+y = 14
+x = 100 
+
+we rewrite and the leatest value of x on the above case is 100 as leatest value
+
+variable name rules
+it starts with letters or underscores
+must consist of letters, numbers and underscores
+case sensitive
+
+mnemonic variables names
+mnemonic = memory aid
+
+xafdfk = 35.0
+lhkfkhf = 12.50
+sdfas = xafdfk * lhkfkhf
+print(sdfas)
+
+a=35.0
+b=12.50
+c=a*b
+print(c)
+
+hours = 35.0
+rate = 12.50
+pay = hours * rate
+print(pay)
+
+python doesnot care about the variables name just thing is operation and calculations only
+
+x = 2 <- assignment statement
+x = x+2 <-assigmnent with expression
+print(x) <- print statement
+
+assigmnent statement
+means = and entire on right side assigns over right side and viceversa
+
+x = 3.9 * x (1-x)
+it solves right hand side and take care as new value of new x 
+
+
+
