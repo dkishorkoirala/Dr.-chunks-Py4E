@@ -1,0 +1,99 @@
+counting loop
+
+zork = 0
+print('Before', zork)
+for thing in [9, 41, 12, 3, 74, 15]:
+    zork = zork + 1
+    print(zork, thing)
+print('After', zork)
+
+summing in a loop
+
+zork = 0
+print('Before', zork)
+for thing in [9, 41, 12, 3, 74, 15]:
+    zork = zork + thing
+    print(zork, thing)
+print('After', zork)
+
+average in a loop
+
+count = 0
+sum = 0
+print('Before', count, sum)
+for value in [9, 41, 12, 3, 74, 15]:
+    count = count + 1
+    sum = sum + value
+    print(count, sum, value)
+print('After', count, sum, sum/count)
+
+filtering in loop
+print('before')
+for value in [9, 41, 12, 3, 74, 15] :
+    if value > 20:
+        print('Large number',value)
+print('after')
+
+Searching using boolean variable
+fount = False
+print('Before', found)
+for value in [9, 41, 12, 3, 74, 15]:
+    if value == 3:
+        found = True
+    print(found, value)
+print('After', found)
+
+to find the largest value
+
+largest_so_far = -999999
+print('Before', largest_so_far)
+for the_num in [9, 41, 12, 3, 74, 15] :
+    if the_num > largest_so_far:
+        largest_so_far = the_num
+    print(largest_so_far, the_num)
+print('after', largest_so_far)
+
+
+
+to find the smallest value
+smallest_so_far = 999999
+print('Before', smallest_so_far)
+for the_num in [9, 41, 12, 3, 74, 15] :
+    if the_num < smallest_so_far:
+        smallest_so_far = the_num
+    print(largest_so_far, the_num)
+print('after', largest_so_far)
+
+None type has one value and its none 
+smallest = None
+print('Before')
+for value in [9, 41, 12, 3, 74, 15] :
+    if smallest is None:
+        smallest = value
+    elif value < smallest:
+        smallest = value
+    print(smallest, value)
+print('After', smallest)
+
+is and isnot operators
+
+smallest = None
+print('Before')
+for value in [9, 41, 12, 3, 74, 15] :
+    if smallest is None:
+        smallest = value
+    elif value < smallest:
+        smallest = value
+    print(smallest, value)
+print('After', smallest)
+
+summary 
+while loop(indefinite)
+for loops(definite)
+infinite loop
+iteration variables
+using break
+loop idioms
+using continue
+largest or smallest
+none constants and variables

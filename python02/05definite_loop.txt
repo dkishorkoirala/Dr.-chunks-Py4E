@@ -1,0 +1,32 @@
+definite loop
+uses for keyword finite set 
+
+for i in [5, 4, 3, 2, 1] :
+    print(i)
+print('Blastoff!')
+
+5
+4
+3
+2
+1
+Blastoff!
+
+i is iteration varaible here
+
+eg. 
+friends = ['joshep', 'john', 'james']
+for friend in friends:
+    print('Happy New Years:', friend)
+print('Done!')
+
+Happy New Years: joshep
+Happy New Years: john
+Happy New Years: james
+
+Done!
+
+word "in" sets/setting the sequence
+
+
+

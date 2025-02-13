@@ -1,0 +1,130 @@
+functions of our own
+
+def to define a function
+new pre defined
+
+def print_lyrics() :
+    print("I'm lumberjack, and i'm okay.")
+    print('I sleep all night and I work all day.')
+
+its not beinf recalled or revoked its just remembering
+
+x=5
+print('hello')
+
+#remembering part
+
+def print_lyrics() :
+    print("i'm lumberjack, and i'm okay")
+    print('i sleep all night and i work all day')
+
+print("yo")
+x = x +2
+print(x)
+
+output 
+hello
+yo
+7
+
+we didn't invoke we just defined
+
+x=5
+print('hello')
+
+#remembering part
+
+def print_lyrics() :
+    print("i'm lumberjack, and i'm okay")
+    print('i sleep all night and i work all day')
+
+print("yo")
+print_lyrics() #invoking here
+x = x +2
+print(x)
+
+output
+hello
+yo
+i'm lumberjack, and i'm okay
+i sleep all night and i work all day
+7
+
+defined and later calling
+
+argument or parameters
+big = max('Hello world')
+here hello world is argument
+
+>>def greet(lang) :
+...    if lang == 'es':
+...        print('hola')
+...    elif lang == 'fr':
+...        print('Bonjour')
+...    else:
+...        print('Hello')
+...
+>>greet('en')
+hello
+>>greet('es')
+hola
+>>greet('fr')
+Bonjour
+
+this is concept of into but now backout its return
+
+return is the executable stuff which finishes and residues the expression
+
+der greet() :
+    return "hello"
+
+print(greet(), "Glenn")
+print(greet(), "Sally")
+
+output
+hello Glenn
+hello Sally
+
+return is fruitful cause it return value or breaks
+
+>>def greet(lang) :
+...    if lang == 'es':
+...        return 'hola'
+...    elif lang == 'fr':
+...        return 'Bonjour'
+...    else:
+...        return 'Hello'
+...
+
+>>print(greet('en'), 'glenn')
+hello glenn
+>>print(greet('es'), 'sally')
+hola sally
+>>print(greet('fr'), 'micheal')
+Bonjour micheal
+
+multiple parameters/Arguments
+eg.
+def addtwo(a, b):
+    added = a + b
+    return added
+
+x = addtwo(3,5)
+print(x)
+
+8
+
+void function
+when a function doesn't return anything it is called void function
+
+summary
+argument
+results(fruitful function)
+void(non-fruitful function)
+why use functions?
+functions
+built-in functions
+-type conversion (int, float)
+-string conversions
+parameters
+

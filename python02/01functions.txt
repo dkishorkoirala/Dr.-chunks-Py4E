@@ -1,0 +1,71 @@
+Functions 
+is store and reuse
+
+we dont like to repeat ourself so we use Functions
+
+new key word def
+stands for define Function
+
+eg.
+def thing() :
+    print('Hello')
+    print('Fun')
+
+thing()
+print('zip')
+thing()
+
+here thing is name of Function
+
+thing() is invoking the Function
+
+print() is a Function
+input()
+type()
+int()
+these are built in Functions
+
+and to create new word or new function we use def keyword
+
+argument as input
+
+calling/invoking a Function
+
+big = max('hello world') here hello world is argument max is builtin function which finds biggest value and returns 
+in big as we assigned to big
+
+tiny = min('Hello world')
+print(big,tiny)
+
+smallest is blank
+
+def max(inp):
+    blah 
+    blah
+    for x in y :
+        blah
+        blah
+
+type conversions
+print float(99)/100
+0.99
+
+i = 42
+type(i)
+<class 'int'>
+
+print(1+2 * float(3)/4 - 5)
+-2.5
+
+string conversions
+savl = '123'
+type(savl)
+<class 'str'>
+
+ival = int(sval)
+type(ival)
+<class 'int'>
+print(ival +1)
+124
+
+##these are pre defined Functions
