@@ -1,0 +1,51 @@
+string data type
+we use + to concatinage strings
+we cant add digits to string
+we can convert string into integer using int() function and add the digits
+
+index of string begins with 0 and continues
+bananan
+0123456 so on
+
+fruit = "banana"
+letter = fruit[1]
+print(letter) #a
+
+x=3
+w = fruit[x-1]
+print(w)
+n
+
+no index can be done beyond the length of the string
+
+how long string is
+fruit = 'banana'
+print(len(fruit)) #6
+
+len function->to find the length of the string
+
+looping through strings
+fruit ='banana'
+for letter in fruit:
+    print(letter)
+
+index = 0 
+while index < len(fruit):
+    letter = fruit[index]
+    print(letter)
+    index = index + 1
+
+looping and counting
+word ='banana'
+count = 0
+for letter in word:
+    if letter == 'a':
+        count = count + 1
+print(count)
+#3
+
+looking deeper into in
+for letter in 'banana' :
+    print(letter)
+
+
