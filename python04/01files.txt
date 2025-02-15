@@ -1,0 +1,50 @@
+files
+files are on aur system
+and we are starting to right permanent code for aur system
+
+its files 
+reading permanent
+
+file processing
+mostly text files
+
+sequesnce of lines in files
+eg hello.py
+
+bunch of lines
+
+to read -> open() function
+parameters
+handle = open(filename, mode) -> name of file, and another read or write but we must read while opening
+
+eg
+fhand = open('mbox.txt')
+print (fhand)
+what is handle
+
+when file are missing
+fhand = open('stuff.txt') 
+no such file gives traceback
+
+the newline character
+\n -> new lines
+>>>stuff = 'hello\nworld'
+>>>stuff
+'hello\nworld'
+>>>print(stuff)
+hello
+world
+>>>stuff = 'x\ny'
+>>>print(stuff)
+x
+y
+
+>>>len(stuff)
+3
+
+file processing
+A text file can be thought of as a sequence of lines
+
+a text file has newlines at the end of each lines
+
+Reading files in python as next

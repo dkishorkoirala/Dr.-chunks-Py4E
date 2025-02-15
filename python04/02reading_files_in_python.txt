@@ -1,0 +1,94 @@
+File handle as a sequence
+
+xfile = open('mbox.txt') #xfile is handle as a sequence and get to each lines
+for line in xfile: #for each line in xfile print each line
+    print(line)
+
+counting lines in a file
+fhand = open('mbox.txt')
+count = 0
+for line in fhand:
+    count = count + 1
+print('line count: ', count)
+
+reading the whole file
+>>>fhand= open('mbox-short.txt')
+>>>inp= fhand.read()
+>>>print(len(inp))
+94626
+>>>print(inp[:20])
+From Stephen.marquar
+
+searching through a file
+fhand = open('mbox-short.txt')
+for line in fhand:
+    if line.startswith('From:'):
+        print(line)
+
+#prefix used From
+
+file has new lines and for loop wont throw the newline and continues
+
+print creates new line too
+
+searching trhrough a file(fixed)
+fhand = open('mbox-short.txt')
+for line in fhand:
+    line = line.rstrip()
+    if line.startswith('From:'):
+        print(line)
+here rstrip() is used to remove anything that has no space at the end of the line or right side
+
+
+skipping with continue
+fhand = open('mbox-short.txt')
+for line in fhand:
+    line = line.rstrip()
+    if not line.startswith('From:'):
+        continue
+    print(line)
+two ways of doing exact same task
+
+using in to select lines
+fhand = open('mbox-short.txt')
+for line in fhand:
+    line = line.rstrip()
+    if not '@uct.ac.za' in line:
+        continue
+    print(line)
+
+prints all the line having @uct.ac.za
+
+prompt for file name
+fname = input('Enter the filename: ')
+fhand = open(fname)
+count = 0
+for line in fhand:
+    if line.startswith('Subject:'):
+        count = count + 1
+print('There were', count, 'subject lines in', fname)
+
+bad file names
+fname = input('Enter the filename: ')
+try:
+    fhand = open(fname)
+except:
+    print('File cannot be opened:', fname)
+    quit()
+
+count = 0
+for line in fhand:
+    if line.startswith('Subject:'):
+        count = count + 1
+print('There were', count, 'subject lines in', fname)
+
+summary
+secondary storage
+opening a file - file handle
+File structure - new line character
+reading a file line by line with a for loop
+searching for lines
+reading file names
+dealing with bad files
+
+data structure in next folder
