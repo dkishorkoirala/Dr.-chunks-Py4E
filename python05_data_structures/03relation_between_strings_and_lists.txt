@@ -1,0 +1,69 @@
+both are related 
+0 baze 
+
+Best Friends: strings and lists
+
+>>> abc = 'with three words' #there are spaces here
+>>>stuff = abc.split() # split-> break into pieces
+>>> print(Stuff)
+['with', 'three', 'words']
+>>> print(len(stuff))
+3
+>>> print(stuff[0])
+with
+
+>>>print(Stuff)
+['with', 'three', 'words']
+>>> for w in stuff: #loop through the list
+        print(w)
+
+with
+three
+words
+
+>>>line = 'a lot            of spaces' #there are many spaces here
+>>>etc = line.split()
+>>>print(etc)
+['a', 'lot', 'of', 'spaces']
+>>>
+>>> line = 'first;second;third'
+>>> thing = line.split()
+>>> print(thing)
+['first;second;third']
+>>> print (len(thing))
+1
+>>> thing = line .split(';')
+>>> print(thing)
+['first', 'second', 'third']
+>>>print(len(thing))
+3
+
+From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008
+
+>>> line = 'From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008'
+>>> words = line.split()
+>>> print(words)
+['From', 'stephen.marquard@uct.ac.za', 'Sat', 'Jan', '5', '09:14:16', '2008']
+
+The Double split pattern
+
+From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008
+
+words = line.split()
+email = words[1]
+pieces = email.split('@')
+print(pieces[1])
+
+List Summary
+Concept of collection
+List and definite loops
+Indexing and lookup
+List mutability
+Functions: len max min sum
+slicing lists
+List methods: append, remove
+Sorting Lists
+Spliting strings into lists of words
+Using split to parse strings
+
+

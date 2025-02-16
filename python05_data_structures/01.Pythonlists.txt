@@ -1,0 +1,105 @@
+Python Lists Ch- 8 
+algorithms
+a set of rules or steps used to solve a problem
+
+Data strctures
+a particular way of organizing data in a computer
+
+what is not a collection?
+most of our variables have one value in them - when we put a new value in the variable, the old is overwritten
+
+collection are like suitecase of variable
+
+Friends = [ 'joshep',  'john', 'james']
+friends variable has 3 thing and are Lists
+
+ List Constants 
+ >>> print ([1, 24, 76])
+ [1, 24, 76]
+ >>>print (['red', 'green', 'blue'])
+ ['red', 'green', 'blue']
+ >>>print(['red', 24, 98.3])
+ ['red', 24, 98.3]
+ >>>print([])
+[]
+
+>>>print ([1, 2, 3,[6,7],8 ])
+[1, 2, 3, [6, 7],8]
+
+We already use lists!
+for i in [5,4,3,2,1]:
+    print(i)
+print('blastoff!')
+
+
+List and definite loops - best pals
+
+friend = ['joshep', 'john', 'james']
+for friend in friends:
+    print('Happy new year', friend)
+print ('Done!')
+
+z = ['joshep', 'john', 'james']
+for x in z:
+    print('Happy new year', x)
+print ('Done!')
+
+Looking inside Lists
+joshep john james
+Sub 0    1    2
+>>> friends = ['joshep', 'john', 'james']
+>>> print(friends[1])
+john
+
+List are mutable or changable
+strings are immutable- we can't change the contests of a string - we must make a new string to make any change
+>>> fruit = 'Banana'
+>>> fruit[0] = 'b'
+
+>>> x = fruit.lower()
+>>> print(x)
+banana
+
+where, list are mutable, - we can change an element of a list using the index operator
+>>>lotto = [1, 2, 3, 4, 5, 6]
+print(lotto)
+[1, 2, 3, 4, 5, 6]
+>>>lotto[0] = 100
+>>>print(lotto)
+[100, 2, 3, 4, 5, 6]
+
+how long is a list?
+len()
+in string 
+ch = 'abasfdf'
+print(len(ch))
+7 -> in string len counts character 
+
+>>> friends = ['joshep', 'john', 'james']
+>>> print(len(friends))
+3 -> len tells us how many items there are not the character
+
+using range function
+>>> print(range(5))
+range(0, 5) i.e [0,1,2,3,4]
+>>> friends = ['Joshep', 'rey', 'ram']
+>>> print (len(friends))
+3
+>>> print(list(range(len(friends))))
+[0, 1, 2]
+
+a tale of two loops
+friends = ['joshep', 'john', 'james']
+for friend in friends:
+    print('Happy new year: ', friend)
+for i in range (len(friends)):
+    friend = friends[i]
+    print('Happy new year: ', friend)
+
+
+
+>>>friends= ['joshep', 'john', 'james']
+>>>print(len(friends))
+3
+>>>print (list(range(len(friends))))
+[0, 1, 2]
