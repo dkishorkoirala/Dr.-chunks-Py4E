@@ -1,0 +1,101 @@
+Python Dictionaries are example of an collection
+
+putting things in lougage and can carry 
+
+collection is organising
+
+not a collection
+simple variable are not a collection
+we cant put two things in same time
+
+list
+a linear collection of values
+lookup by position 0 length-1
+
+Dictionaries
+a linear collection of key-value pairs
+lookup by "tag" or "key"
+
+new trick
+all the cables of certain type into the same bage with label 
+lable is key and value is whats inside here cables
+
+when we jump back to drawl and search label here hdmi cable we can see the value
+so do python collection is very efficient to give you back
+
+Dictionaries
+
+are the python's most powerful data collection
+allows us to do fast database-like operations in python
+similar concept in different programming language 
+-associative arrays- perl/php
+-properties or map or hashmap- java
+-property bag - c#/.net
+
+Dictionaries over time in python
+inserted order
+
+below abstraction
+abstract objects
+
+list review
+>>>cards = list()
+>>>cards.append(12)
+>>>cards.append(3)
+>>>cards.append(75)
+>>>print (cards)
+[12, 3, 75]
+
+>>>print(cards[1])
+3
+
+>>>cards[1] = cards[1] + 2
+>>>print(cards)
+[12, 5, 75]
+
+similar in Dictionaries
+>>> cabinet = dict()
+>>> cabinet['summer'] = 12
+>>> cabinet['fall'] = 3
+>>> cabinet['spring'] = 75
+>>> print(cabinet)
+{'summer': 12, fall': 3, spring': 75}
+>>> print(cabinet['fall'])
+3
+>>> cabinet['fall'] = cabinet['fall'] + 2
+>>> print(cabinet)
+{'summer': 12, 'fall': 5, 'spring': 75}
+
+these are used using hash map
+
+compare
+list
+>>> lst = list()
+>>> lst.append(21)
+>>> lst.append(183)
+>>> print(lst)
+[21, 183]
+>>> lst[0] = 23
+>>> print(lst)
+[23, 183]
+
+Dictionaries
+>>> ddd = dict()
+>>> ddd['age'] = 21
+>>> ddd['course'] = 182
+>>> print(ddd)
+{'age': 21, 'course': 182}
+>>> ddd['age'] = 23
+>>> print(ddd)
+{'age': 23, 'course': 182}
+
+dictionary literals (constant)
+>>> jjj = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
+>>> print(jjj)
+{'chuck': 1, 'fred': 42, 'jan': 100}
+>>> ooo = { }
+>>> print(ooo)
+{}
+>>>
+
+

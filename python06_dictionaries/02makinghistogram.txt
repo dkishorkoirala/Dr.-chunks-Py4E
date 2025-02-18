@@ -1,0 +1,56 @@
+most common name?
+
+many counters with a dictionary
+
+>>>ccc = dist()
+>>>ccc['csev']=1
+>>>ccc['cwen']=1
+>>>print(ccc)
+{'csev': 1, 'cwen': 1}
+>>>ccc['cewn'] = ccc['cwen'] + 1
+>>>print (ccc)
+{'csev': 1, 'cwen': 2}
+
+dictionary tracebacks
+we cant look for the key that doesn't exist
+
+but can be solved using in operator
+>>> ccc = dict()
+>>> print(ccc['csev'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'csev'
+>>> 'csev' in ccc #check can solve is also an question
+False
+
+when we see a new name
+counts = dict()
+names = ['csev', 'cwen', 'csev', 'zqian', 'cwen']
+for name in names :
+    if name not in counts: 
+       counts[name] = 1
+    else :
+        counts[name] = counts[name] + 1
+print(counts)
+
+get method for Dictionaries
+
+    if name in counts:
+       x = counts[name]
+    else :
+       x = 0
+
+x = counts.get(name, 0) # get function with argument key and 0 as value of count
+
+{'csev': 2, 'cwen': 2 , 'zqian': 1}
+
+simplified counting with get()
+
+counts = dict()
+names = ['csev', 'cwen', 'csev', 'zqian', 'cwen']
+for name in names :
+    counts[name] = counts.get(name, 0) + 1
+print(counts)
+
+
+

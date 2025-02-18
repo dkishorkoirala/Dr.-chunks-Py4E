@@ -1,0 +1,83 @@
+counting  words in text 
+
+Counting pattern
+counts = dict()
+print('Enter a line of text:')
+line = input('')
+
+words = line.split()
+
+print('Words:', words)
+
+print('Counting...')
+for word in words:
+    counts[word] = counts.get(word,0) + 1
+print('Counts', counts)
+
+#split and count is done here
+
+Definite loops and Dictionaries
+>>> counts = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
+>>> for key in counts:
+...     print(key, counts[key])
+... 
+chuck 1
+fred 42
+jan 100
+>>> 
+#looping through dictionary is done here
+
+Retrieving list of keys and values
+key(), values(), items()
+>>> jjj = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
+>>> print(list(jjj))
+['chuck', 'fred', 'jan']
+>>> print(list(jjj.keys()))
+['chuck', 'fred', 'jan']
+>>> print(list(jjj.values()))
+[1, 42, 100]
+>>> print(list(jjj.items()))
+[('chuck', 1), ('fred', 42), ('jan', 100)]
+>>> 
+
+Bonus: two iteration variables!!
+jjj = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
+for aaa,bbb in jjj.items() :
+    print(aaa, bbb)
+
+
+ 
+chuck 1
+fred 42
+jan 100
+
+reading file and counting words in a file
+
+name = input('Enter file:')
+handle = open(name)
+
+counts = dict()
+for line in handle:
+    words = line.split()
+    for word in words:
+        counts[word] = counts.get(word,0) + 1
+
+bigcount = None
+bigword = None
+for word,count in counts.items():
+    if bigcount is None or count > bigcount:
+        bigword = word
+        bigcount = count
+
+print(bigword, bigcount)
+
+Summary
+What is collection
+list versus Dictionaries
+Dictionary constant
+the most common word
+using the get() method
+writing dictionary loops
+sneak peek: Tuples
+
+
