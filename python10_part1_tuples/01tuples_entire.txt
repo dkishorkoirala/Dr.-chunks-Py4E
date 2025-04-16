@@ -1,0 +1,125 @@
+Tuples are another kind od sequence that functions much like a list
+they have leements which are indexed starting at 0
+
+recutiction version of list
+no square but round parenthesis
+
+>> x = ('glenn', 'sarah', 'jake')
+>> print(x[2])
+Jake
+
+>> y = (1, 9 , 2)
+>>print(y)
+(1, 9, 2)
+
+>>print(max(y))
+9
+
+>> for iter in y:
+... print(iter)
+1
+9
+2
+>>>
+
+but tuples are "immutable"
+unlike a list, once we create a tuple , we cannot alter its contents - similar to a string
+
+>>> x = [9, 8, 7]
+>>> x[2] = 6
+
+>>> print(x)
+[9, 8, 6]
+this is list
+
+but 
+>>> y = 'abc'
+>>> y[2] = 'd'
+traceback : str object does not support item assignment
+>>>
+
+and 
+>>> z = (5, 4, 3)
+>>> z[2] = 6
+Traceback (most recent call last):
+>>>
+
+tuple can't be modified
+
+designed for efficiency, less storage, quicker to access, and faster to iterate over
+
+things not to do with tuples
+
+>>> x = (1, 2, 3)
+>>> x.sort()
+Traceback (most recent call last):
+>>> x.append(5)
+Traceback (most recent call last):
+>>> x.remove(2)
+Traceback (most recent call last):
+
+can't be modified
+
+a tale of two sequences
+
+>>> l = list()
+>>> dir(1)
+['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+>>>
+
+>>> t = tuple()
+>>> dir (t)
+['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'count', 'index']
+
+tuple are more efficient
+
+higher performance
+temporary variables we prefer tuples over list
+
+for one time use and throw it away later we use tuple but for long run list is prefered
+
+Tuples and assignment
+we can also put a tuple on the left-hand side of an assignment statement
+
+we can even omit the parentheses
+
+>>> (x, y) = (4, 'fred)
+>>> print (y)
+'fred'
+
+>>> (a,b) = (99, 98)
+>>> print (a)
+99
+
+tuples and dictionaries
+the items() method in dictionaries returnsa list of (key, value) tuples
+
+>>> d = dict()
+>>> d['csev']= 2
+>>> d['cwen']= 4
+>>> for (k,v) in d.items():
+... print (k,v)
+...
+csev 2
+cwen 4
+
+>>> tups = d.items()
+>>> print(tups)
+dict_items([('csev', 2), ('cwen', 4)])
+
+Tuples are comparable
+
+the comparision operators work with tuples and other sequences 
+if the first item is equal , python goes on to the next element, and so on,
+until it finds elements that differ
+
+>>> (0, 1, 2) <(5, 1, 2)# it checkes from left to write
+True
+>>> (0, 1, 200000000) <(0, 3, 4)
+True
+
+>>> ( 'jones' , 'sally ')< ('jones', 'sam')# l is less than m so True
+True
+>>> ('jones', 'sally')> ('adams','sam')# j is bigger to a
+True
+
