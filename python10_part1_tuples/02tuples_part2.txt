@@ -1,0 +1,68 @@
+sorting list of tuples
+
+we can take advantage of the ability to sort a list of tuples to get a sorted version of a dictionary
+
+first we sort the dictionary by the key using the items() method and sorted() functions
+
+>> d = {'a' : 10, 'c': 22, 'b': 5}
+>> d.items()
+dict_items(['a' : 10, 'c': 22, 'b': 5])
+>> sorted(d.items())
+[('a', 10), ('b', 5), ('c', 22)]
+
+
+using sorted()
+
+we can even do this even more directly using the built-in function sorted that takes a sequence as a parameter and returns a sorted sequence
+
+>>> d = {'a' : 10, 'c': 22, 'b': 5}
+>>> t = sorted(d.list())
+>>> t 
+[('a', 10), ('b', 5), ('c', 22)]
+>>> for k, v in sorted ( d.items())
+...     print(k, v)
+a 10
+b 5
+c 22
+
+sort by values insted of key
+if we could construct a list of tuples of the form(value, key) we could sort by value
+
+we do this with a for loop that creates a list of tuples
+
+>>> d = {'a' : 10, 'c': 22, 'b': 5}
+>>> tmp = list()
+>>> for k, v in c.items():
+... tmp.append((v, k))
+...
+>>> print (tmp)
+[(10, 'a'), (22, 'c'), (5, 'b')]
+>>> tmp = sorted (tmp, reverse=True)
+>>> print (tmp)
+[(22, 'c'), (10, 'a'), (5, 'b')]
+
+top 10 most common words
+fhand = open('romeo.txt')
+count = dict()
+for line in fhand:
+    words = line.split()
+    for word in words:
+        count[word] = count.get(word, 0) + 1
+
+lst = list()
+for key, val in counts.items():
+    newtup = (val, key)
+    lst.append(newtup)
+
+lst = sorted(lst, reverse=True)
+
+for val, key in lst[:10]:
+    print(key, val)
+
+even shorter version
+>>> c = {'a' : 10, 'b'= 1, 'c' = 22 }
+>>> print (sorted ([(v, k) for k, v in c.items()]))
+[(1, 'b'), (10, 'a'), (22, 'c')]
+
+List comprehension creates a dynamic list. in this case, we make a list of reversed tuples and then sort it
+
